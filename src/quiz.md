@@ -9,3 +9,5 @@
 9. La table **Quiz** possede 2 clés etrangeres qui sont user_id (manytoone)
 10. Il ya deux relations entre **Answer** et **Question** parceque la description de la reponse doit repondre à la description de la question et vice-versa en même temps une question = une reponse, une à quatre reponses = une question.
 11. La classe **QuizResult** se trouve entre les classes **User** et **Quiz** parceque c'est une classe intermediaire
+
+ 12 Si un utilisateur souhaite tenter à nouveau un questionnaire, est-il prévu qu'il puisse voir à quelles questions il avait bien répondu précédemment? Si oui, où peut-on le voir sur le diagramme? Si non, que faudrait-il rajouter sur le diagramme pour pouvoir l'exprimer?
